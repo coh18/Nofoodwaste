@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1016213953947564654}
   - component: {fileID: 4634273765569650218}
   - component: {fileID: 6309302116406062502}
+  - component: {fileID: 6262652597272870400}
   m_Layer: 0
   m_Name: grabbableApple
   m_TagString: Untagged
@@ -141,6 +142,21 @@ MonoBehaviour:
   showTouchingOver: 1
   touchingOverMaterial: {fileID: 2100000, guid: 2a6e178022e90be498acb517c9f1a51c,
     type: 2}
+--- !u!114 &6262652597272870400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3094206330414803691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1d332d74bd08bc44837f2aaceabc001, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodPrefab: {fileID: 4634273765569650218}
+  startPosition: {fileID: 3084801498660102771, guid: c14106c237b1846cb940c62469684a5b,
+    type: 3}
 --- !u!1001 &1986085184678313917
 PrefabInstance:
   m_ObjectHideFlags: 0
